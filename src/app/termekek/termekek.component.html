@@ -1,0 +1,8 @@
+<div class="card" style="width: 18rem;" *ngFor="let cipok of cipok">
+    <img [src]="cipok.path" class="card-img-top" [alt]="cipok.alt">
+    <div class="card-body">
+      <h5 class="card-title">{{cipok.nev}}</h5>
+      <p class="card-text">Ár: {{cipok.ar}} Ft</p>
+      <a routerLink="" class="btn btn-primary">Érdekel</a>
+    </div>
+</div>
