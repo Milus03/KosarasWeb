@@ -8,11 +8,11 @@
       {"id": 6, "nev": "Termékek", "link": "/termekek"}
     ],
     "cipok": [
-      {"id": 1, "nev": "Nike LeBron 20", "ar": 59990, "meret": [40, 42, 44], "szin": "fekete/piros", "path":"Nike_LeBron_20-removebg-preview.png", "alt":"Nike LeBron 20"},
-      {"id": 2, "nev": "Adidas Harden Vol. 7", "ar": 54990, "meret": [41, 43, 45], "szin": "kék/fehér", "path": "Adidas_Harden_Vol._7-removebg-preview.png", "alt":"Adidas Harden Vol. 7"},
-      {"id": 3, "nev": "Puma MB.02", "ar": 49990, "meret": [40, 42, 44], "szin": "sárga/lila", "path": "Puma_MB.02-removebg-preview.png", "alt": "Puma MB.02"},
-      {"id": 4, "nev": "Under Armour Curry 10", "ar": 57990, "meret": [41, 42, 44], "szin": "fehér/kék", "path": "Under_Armour_Curry_10-removebg-preview.png", "alt":"Under Armour Curry 10"},
-      {"id": 5, "nev": "Jordan Luka 1", "ar": 52990, "meret": [40, 42, 43], "szin": "piros/fekete", "path": "Jordan_Luka_1-removebg-preview.png", "alt": "Jordan Luka 1"}
+      {"id": 1, "nev": "Nike LeBron 20", "ar": 59990, "meret": [40, 42, 44], "szin": "fekete/piros", "marka":"Nike", "path":"Nike_LeBron_20-removebg-preview.png", "alt":"Nike LeBron 20"},
+      {"id": 2, "nev": "Adidas Harden Vol. 7", "ar": 54990, "meret": [41, 43, 45], "szin": "kék/fehér", "marka":"Adidas", "path": "Adidas_Harden_Vol._7-removebg-preview.png", "alt":"Adidas Harden Vol. 7"},
+      {"id": 3, "nev": "Puma MB.02", "ar": 49990, "meret": [40, 42, 44], "szin": "sárga/lila", "marka":"Puma", "path": "Puma_MB.02-removebg-preview.png", "alt": "Puma MB.02"},
+      {"id": 4, "nev": "Under Armour Curry 10", "ar": 57990, "meret": [41, 42, 44], "szin": "fehér/kék","marka":"UnderArmour", "path": "Under_Armour_Curry_10-removebg-preview.png", "alt":"Under Armour Curry 10"},
+      {"id": 5, "nev": "Jordan Luka 1", "ar": 52990, "meret": [40, 42, 43], "szin": "piros/fekete", "marka":"Jordan", "path": "Jordan_Luka_1-removebg-preview.png", "alt": "Jordan Luka 1"}
     ],
     "mezek": [
       {"id": 1, "nev": "LeBron James Lakers mez", "ar": 29990, "meret": ["S", "M", "L", "XL"], "szin": "sárga/lila"},

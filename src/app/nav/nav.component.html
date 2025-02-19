@@ -12,7 +12,6 @@
             <a class="nav-link active" aria-current="page" routerLink="/home">Home</a>
           </li>
   
-          <!-- DROPDOWN MENÜ -->
           <li class="nav-item dropdown" ngbDropdown>
             <a class="nav-link dropdown-toggle" id="navbarDropdown" ngbDropdownToggle role="button">
               Kategóriák
@@ -26,13 +25,14 @@
             </ul>
           </li>
         </ul>
-  
-        <form class="form-inline my-2 my-lg-0 ml-auto">
-          <input class="form-control mr-sm-2" type="search" placeholder="Keresés" aria-label="search">
-        </form>
-        <div class="margin d-grid gap-2 d-md-flex justify-content-md-end">
-          <button class="btn btn-outline-success" type="submit">Keresés <i class="bi bi-search"></i></button>
+        <!-- <i class="bi bi-basket2-fill" id="basket" routerLink="kosar"></i> -->
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+          <button class="btn btn-primary me-md-2 bi bi-basket2-fill" type="button"></button>
         </div>
+        <form class="d-flex" role="search">
+          <input  [(ngModel)]="keresoSzo" (keyup)="onKeyUp($event)" class="form-control me-2" type="search" placeholder="Search" name="search">
+          <button (click)="setKeresoSzo()" class="btn btn-outline-success" type="submit">Keresés</button>
+        </form>
       </div>
     </div>
   </nav>

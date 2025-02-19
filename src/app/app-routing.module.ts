@@ -8,6 +8,7 @@ import { PoszterekComponent } from './poszterek/poszterek.component';
 import { MezekComponent } from './mezek/mezek.component';
 import { PalankokComponent } from './palankok/palankok.component';
 import { LabdakComponent } from './labdak/labdak.component';
+import { KosarComponent } from './kosar/kosar.component';
 
 const routes: Routes = [
   {path: "home", component: HomeComponent},
@@ -18,6 +19,7 @@ const routes: Routes = [
   {path: "mezek", component: MezekComponent},
   {path: "palankok", component: PalankokComponent},
   {path: "labdak", component: LabdakComponent},
+  {path: "kosar", component: KosarComponent},
   {path: "", redirectTo:"home", pathMatch:'full'},
   {path: "**", redirectTo:"home", pathMatch:'full'}
 ];

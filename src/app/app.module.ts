@@ -17,6 +17,8 @@ import { CipokComponent } from './cipok/cipok.component';
 import { PalankokComponent } from './palankok/palankok.component';
 import { LabdakComponent } from './labdak/labdak.component';
 import { PoszterekComponent } from './poszterek/poszterek.component';
+import { SortPipe } from './sort.pipe';
+import { KosarComponent } from './kosar/kosar.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { PoszterekComponent } from './poszterek/poszterek.component';
     CipokComponent,
     PalankokComponent,
     LabdakComponent,
-    PoszterekComponent
+    PoszterekComponent,
+    SortPipe,
+    KosarComponent
   ],
   imports: [
     BrowserModule,
