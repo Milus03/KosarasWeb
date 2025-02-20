@@ -19,6 +19,9 @@ import { LabdakComponent } from './labdak/labdak.component';
 import { PoszterekComponent } from './poszterek/poszterek.component';
 import { SortPipe } from './sort.pipe';
 import { KosarComponent } from './kosar/kosar.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
+import { AszfComponent } from './aszf/aszf.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +38,10 @@ import { KosarComponent } from './kosar/kosar.component';
     LabdakComponent,
     PoszterekComponent,
     SortPipe,
-    KosarComponent
+    KosarComponent,
+    LoginComponent,
+    RegisterComponent,
+    AszfComponent
   ],
   imports: [
     BrowserModule,

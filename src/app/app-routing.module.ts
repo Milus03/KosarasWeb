@@ -9,6 +9,9 @@ import { MezekComponent } from './mezek/mezek.component';
 import { PalankokComponent } from './palankok/palankok.component';
 import { LabdakComponent } from './labdak/labdak.component';
 import { KosarComponent } from './kosar/kosar.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
+import { AszfComponent } from './aszf/aszf.component';
 
 const routes: Routes = [
   {path: "home", component: HomeComponent},
@@ -20,6 +23,9 @@ const routes: Routes = [
   {path: "palankok", component: PalankokComponent},
   {path: "labdak", component: LabdakComponent},
   {path: "kosar", component: KosarComponent},
+  {path: "login", component: LoginComponent},
+  {path: "register", component: RegisterComponent},
+  {path: "aszf", component: AszfComponent},
   {path: "", redirectTo:"home", pathMatch:'full'},
   {path: "**", redirectTo:"home", pathMatch:'full'}
 ];
