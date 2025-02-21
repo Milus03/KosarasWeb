@@ -15,31 +15,31 @@
       {"id": 5, "nev": "Jordan Luka 1", "ar": 52990, "meret": [40, 42, 43], "szin": "piros/fekete", "marka":"Jordan", "path": "kepek/cipok/Jordan_Luka_1-removebg-preview.png", "alt": "Jordan Luka 1"}
     ],
     "mezek": [
-      {"id": 1, "nev": "LeBron James Lakers mez", "ar": 29990, "meret": ["S", "M", "L", "XL"], "szin": "sárga/lila"},
-      {"id": 2, "nev": "Stephen Curry Warriors mez", "ar": 28990, "meret": ["S", "M", "L", "XL"], "szin": "kék/sárga"},
-      {"id": 3, "nev": "Giannis Antetokounmpo Bucks mez", "ar": 27990, "meret": ["M", "L", "XL"], "szin": "zöld/fehér"},
-      {"id": 4, "nev": "Luka Doncic Mavericks mez", "ar": 28990, "meret": ["S", "M", "L"], "szin": "kék/fehér"},
-      {"id": 5, "nev": "Kevin Durant Suns mez", "ar": 29990, "meret": ["M", "L", "XL"], "szin": "narancs/fekete"}
+      {"id": 1, "nev": "LeBron James Lakers mez", "ar": 29990, "meret": ["S", "M", "L", "XL"], "szin": "sárga/lila", "path":"kepek/mezek/LeBron James Lakers mez.png", "alt":"LeBron James Lakers mez"},
+      {"id": 2, "nev": "Stephen Curry Warriors mez", "ar": 28990, "meret": ["S", "M", "L", "XL"], "szin": "kék/sárga", "path":"kepek/mezek/Stephen Curry Warriors mez.png", "alt":"Stephen Curry Warriors mez"},
+      {"id": 3, "nev": "Giannis Antetokounmpo Bucks mez", "ar": 27990, "meret": ["M", "L", "XL"], "szin": "zöld/fehér", "path":"kepek/mezek/Giannis Antetokounmpo Bucks mez.png", "alt":"Giannis Antetokounmpo Bucks mez"},
+      {"id": 4, "nev": "Luka Doncic Mavericks mez", "ar": 28990, "meret": ["S", "M", "L"], "szin": "kék/fehér", "path":"kepek/mezek/Luka Doncic Mavericks mez.png", "alt":"Luka Doncic Mavericks mez"},
+      {"id": 5, "nev": "Kevin Durant Suns mez", "ar": 29990, "meret": ["M", "L", "XL"], "szin": "narancs/fekete", "path":"kepek/mezek/Kevin Durant Suns mez.png", "alt":"Kevin Durant Suns mez"}
     ],
     "labdak": [
-      {"id": 1, "nev": "Spalding NBA Official Ball", "ar": 34990, "meret": 7, "anyag": "bőr"},
-      {"id": 2, "nev": "Wilson Evolution Indoor Ball", "ar": 31990, "meret": 7, "anyag": "szintetikus bőr"},
-      {"id": 3, "nev": "Molten BG4500", "ar": 29990, "meret": 6, "anyag": "kompozit bőr"},
-      {"id": 4, "nev": "Nike Elite Championship", "ar": 32990, "meret": 7, "anyag": "gumi"},
-      {"id": 5, "nev": "Adidas 3 Stripes Ball", "ar": 19990, "meret": 5, "anyag": "gumi"}
+      {"id": 1, "nev": "Spalding NBA Official Ball", "ar": 34990, "meret": 7, "anyag": "bőr", "path":"kepek/labdak/Spalding NBA Official Ball.png", "alt":"Spalding NBA Official Ball"},
+      {"id": 2, "nev": "Wilson Evolution Indoor Ball", "ar": 31990, "meret": 7, "anyag": "szintetikus bőr", "path":"kepek/labdak/Wilson Evolution Indoor Ball.png", "alt":"Wilson Evolution Indoor Ball"},
+      {"id": 3, "nev": "Molten BG4500", "ar": 29990, "meret": 6, "anyag": "kompozit bőr", "path":"kepek/labdak/Molten BG4500.png", "alt":"Molten BG4500"},
+      {"id": 4, "nev": "Nike Elite Championship", "ar": 32990, "meret": 7, "anyag": "gumi", "path":"kepek/labdak/Nike Elite Championship.png", "alt": "Nike Elite Championship"},
+      {"id": 5, "nev": "Adidas 3 Stripes Ball", "ar": 19990, "meret": 5, "anyag": "gumi", "path":"kepek/labdak/Adidas 3 Stripes Ball.png", "alt": "Adidas 3 Stripes Ball"}
     ],
     "palank": [
-      {"id": 1, "nev": "NBA Pro Court Palánk", "ar": 99990, "anyag": "acél/plexi"},
-      {"id": 2, "nev": "Spalding Portable Hoop", "ar": 129990, "anyag": "acél/plexi"},
-      {"id": 3, "nev": "Lifetime Adjustable Hoop", "ar": 89990, "anyag": "műanyag/fém"},
-      {"id": 4, "nev": "Silverback In-Ground System", "ar": 159990, "anyag": "üveg/acél"},
-      {"id": 5, "nev": "SKLZ Pro Mini Hoop", "ar": 19990, "anyag": "műanyag"}
+      {"id": 1, "nev": "NBA Pro Court Palánk", "ar": 99990, "anyag": "acél/plexi", "path":"kepek/palank/NBA Pro Court Hoop.png", "alt": "NBA Pro Court Palánk"},
+      {"id": 2, "nev": "Spalding Portable Hoop", "ar": 129990, "anyag": "acél/plexi", "path":"kepek/palank/Spalding Portable Hoop.png", "alt": "Spalding Portable Hoop"},
+      {"id": 3, "nev": "Lifetime Adjustable Hoop", "ar": 89990, "anyag": "műanyag/fém", "path":"kepek/palank/Lifetime Adjustable Hoop.png", "alt": "Lifetime Adjustable Hoop"},
+      {"id": 4, "nev": "Silverback In-Ground System", "ar": 159990, "anyag": "üveg/acél", "path":"kepek/palank/Silverback In-Ground System.png", "alt": "Silverback In-Ground System"},
+      {"id": 5, "nev": "SKLZ Pro Mini Hoop", "ar": 19990, "anyag": "műanyag", "path":"kepek/palank/SKLZ Pro Mini Hoop.png", "alt": "SKLZ Pro Mini Hoop"}
     ],
     "poszterek": [
-      {"id": 1, "nev": "Michael Jordan Air Poster", "ar": 12990, "meret": "60x90 cm"},
-      {"id": 2, "nev": "LeBron James Dunk Poster", "ar": 11990, "meret": "50x70 cm"},
-      {"id": 3, "nev": "Kobe Bryant Mamba Poster", "ar": 13990, "meret": "60x90 cm"},
-      {"id": 4, "nev": "Stephen Curry 3-Point King Poster", "ar": 10990, "meret": "50x70 cm"},
-      {"id": 5, "nev": "Giannis Antetokounmpo MVP Poster", "ar": 11990, "meret": "60x90 cm"}
+      {"id": 1, "nev": "Michael Jordan Air Poster", "ar": 12990, "meret": "60x90 cm", "path":"kepek/poszterek/Michael Jordan Air Poster.png", "alt":"Michael Jordan Air Poster"},
+      {"id": 2, "nev": "LeBron James Dunk Poster", "ar": 11990, "meret": "50x70 cm", "path":"kepek/poszterek/LeBron James Dunk Poster.png", "alt":"LeBron James Dunk Poster"},
+      {"id": 3, "nev": "Kobe Bryant Mamba Poster", "ar": 13990, "meret": "60x90 cm", "path":"kepek/poszterek/Kobe Bryant Mamba Poster.png", "alt":"Kobe Bryant Mamba Poster"},
+      {"id": 4, "nev": "Stephen Curry Poster", "ar": 10990, "meret": "50x70 cm", "path":"kepek/poszterek/Stephen Curry Poster.png", "alt":"Stephen Curry Poster"},
+      {"id": 5, "nev": "Giannis Antetokounmpo Poster", "ar": 11990, "meret": "60x90 cm", "path":"kepek/poszterek/Giannis Antetokounmpo Poster.png", "alt":"Giannis Antetokounmpo"}
     ]
   }
