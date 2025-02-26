@@ -1,3 +1,13 @@
+.form-group {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.form-control {
+    width: 50%; 
+}
+
 #inputcucc{
     width: 50%;
 }
