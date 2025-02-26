@@ -58,7 +58,7 @@
       {"id": 11, "nev": "Molten BGR7", "ar": 20990, "meret": 7, "anyag": "gumi", "path":"kepek/labdak/Molten BGR7.png", "alt": "Molten BGR7"},
       {"id": 12, "nev": "Spalding TF-1000 Legacy", "ar": 34990, "meret": 7, "anyag": "szintetikus bőr", "path":"kepek/labdak/Spalding TF-1000 Legacy.png", "alt": "Spalding TF-1000 Legacy"},
       {"id": 13, "nev": "Wilson Jet Pro Ball", "ar": 25990, "meret": 7, "anyag": "kompozit bőr", "path":"kepek/labdak/Wilson Jet Pro Ball.png", "alt": "Wilson Jet Pro Ball"},
-      {"id": 14, "nev": "Nike Versa Tack Indoor/Outdoor Ball", "ar": 24990, "meret": 7, "anyag": "kompozit bőr", "path":"kepek/labdak/Nike Versa Tack Indoor-Outdoor Ball.png", "alt": "Nike Versa Tack Indoor/Outdoor Ball"},
+      {"id": 14, "nev": "Nike Versa Tack Indoor/Outdoor Ball", "ar": 24990, "meret": 7, "anyag": "kompozit bőr", "path":"kepek/labdak/Nike Versa Tack Indoor.png", "alt": "Nike Versa Tack Indoor/Outdoor Ball"},
       {"id": 15, "nev": "Adidas Pro Model Ball", "ar": 29990, "meret": 7, "anyag": "szintetikus bőr", "path":"kepek/labdak/Adidas Pro Model Ball.png", "alt": "Adidas Pro Model Ball"},
       {"id": 16, "nev": "Molten GL7X", "ar": 34990, "meret": 7, "anyag": "kompozit bőr", "path":"kepek/labdak/Molten GL7X.png", "alt": "Molten GL7X"}
 
@@ -96,9 +96,9 @@
       {"id": 11, "nev": "Shaquille O'Neal", "ar": 13990, "meret": "60x90 cm", "path":"kepek/poszterek/Shaquille O'Neal Poster.png", "alt":"Shaquille O'Neal Poster"},
       {"id": 12, "nev": "Kawhi Leonard", "ar": 10990, "meret": "50x70 cm", "path":"kepek/poszterek/Kawhi Leonard Poster.png", "alt":"Kawhi Leonard Poster"},
       {"id": 13, "nev": "Paul George", "ar": 11990, "meret": "60x90 cm", "path":"kepek/poszterek/Paul George Poster.png", "alt":"Paul George"},
-      {"id": 14, "nev": "Russell Westbrook", "ar": 10990, "meret": "60x90 cm", "path":"kepek/poszterek/Russell Westbrook Poster.png", "alt":"Russell Westbrook"},
+      {"id": 14, "nev": "Jimmy Butler", "ar": 10990, "meret": "60x90 cm", "path":"kepek/poszterek/Jimmy Butler Poster.png", "alt":"Jimmy Butler"},
       {"id": 15, "nev": "James Harden", "ar": 11990, "meret": "60x90 cm", "path":"kepek/poszterek/James Harden Poster.png", "alt":"James Harden"},
-      {"id": 16, "nev": "Dirk Nowitzki", "ar": 9990, "meret": "60x90 cm", "path":"kepek/poszterek/Dirk Nowitzki Poster.png", "alt":"Dirk Nowitzki"}
+      {"id": 16, "nev": "Luka Doncic", "ar": 9990, "meret": "60x90 cm", "path":"kepek/poszterek/Luka Doncic Poster.png", "alt":"Luka Doncic"}
 
     ]
   }
