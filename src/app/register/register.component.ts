@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AuthService } from '../auth.service';
 
 @Component({
   selector: 'app-register',
@@ -8,4 +9,23 @@ import { Component } from '@angular/core';
 })
 export class RegisterComponent {
 
+  email: string = ''
+  password: string = ''
+  lastname: string = ''
+  firstname: string = ''
+  nickname: string = ''
+
+  constructor(private auth:AuthService) { }
+
+  register() {
+    this.auth.register(this.email, this.password)
+      .then(res => alert("Sikeres regisztráció!"))
+      .catch(err => alert("Hiba történt!"))
+  }
+
+  registerWithGoogle() {
+    this.auth.loginWithGoogle()
+      .then(res => console.log("Sikeres Google bejelentkezés!", res))
+      .catch(err => console.error("Hiba történt!", err.message));
+  }
 }

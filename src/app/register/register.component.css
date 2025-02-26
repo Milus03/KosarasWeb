@@ -8,6 +8,11 @@
     width: 50%; 
 }
 
-#inputcucc{
-    width: 50%;
+p {
+    text-align: center;
+}
+
+button{
+    justify-self: center;
+    display: block;
 }

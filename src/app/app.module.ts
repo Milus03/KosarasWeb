@@ -22,6 +22,9 @@ import { KosarComponent } from './kosar/kosar.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { AszfComponent } from './aszf/aszf.component';
+import { environment } from '../environments/environments';
+import { AngularFireModule } from '@angular/fire/compat';
+import { AngularFireAuthModule } from '@angular/fire/compat/auth';
 
 @NgModule({
   declarations: [
@@ -47,7 +50,9 @@ import { AszfComponent } from './aszf/aszf.component';
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    FormsModule
+    FormsModule,
+    AngularFireModule.initializeApp(environment.firebaseConfig),
+    AngularFireAuthModule
   ],
   providers: [provideHttpClient()],
   bootstrap: [AppComponent]

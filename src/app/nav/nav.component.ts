@@ -1,6 +1,7 @@
 import { Component, inject } from '@angular/core';
 import { BaseService } from '../base.service';
 import { SearchService } from '../search.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-nav',
@@ -14,7 +15,7 @@ export class NavComponent {
   link: any[] = []
   keresoSzo=""
 
-  constructor(private base:BaseService, private search:SearchService) { 
+  constructor(private base:BaseService, private search:SearchService, public router:Router) { 
     this.getKomponens()
     this.getPath()
     this.search.getSearchWord().subscribe(

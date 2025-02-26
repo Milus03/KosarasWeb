@@ -1,31 +1,32 @@
 <form>
     <div class="form-group mb-3">
 
-        <input type="email" class="form-control" id="inputcucc" aria-describedby="email" placeholder="E-mail cím">
+        <input type="email" [(ngModel)]="email" [ngModelOptions]="{standalone: true}" class="form-control" id="inputcucc1" aria-describedby="email" placeholder="E-mail cím">
     </div>
     <div class="form-group mb-3">
 
-        <input type="password" class="form-control" id="inputcucc" placeholder="Jelszó">
+        <input type="password" [(ngModel)]="password" [ngModelOptions]="{standalone: true}" class="form-control" id="inputcucc2" placeholder="Jelszó">
     </div>
     <div class="form-group mb-3">
 
-        <input type="text" class="form-control" id="inputcucc" placeholder="Vezetéknév">
+        <input type="text" class="form-control" [(ngModel)]="lastname" [ngModelOptions]="{standalone: true}" id="inputcucc3" placeholder="Vezetéknév">
     </div>
     <div class="form-group mb-3">
 
-        <input type="text" class="form-control" id="inputcucc" placeholder="Keresztnév">
+        <input type="text" [(ngModel)]="firstname" [ngModelOptions]="{standalone: true}" class="form-control" id="inputcucc4" placeholder="Keresztnév">
     </div>
     <div class="form-group mb-3">
 
-        <input type="text" class="form-control" id="inputcucc" placeholder="Becenév">
+        <input type="text" [(ngModel)]="nickname" [ngModelOptions]="{standalone: true}" class="form-control" id="inputcucc5" placeholder="Becenév">
     </div>
-   <div class="form-container">
+    <div class="form-container">
     <p class="centered-text">Van már fiókod? <a routerLink="/login">Lépj be!</a></p>
     <div class="form-group form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-        <label class="form-check-label" for="exampleCheck1">Elfogadom az <a routerLink="/aszf">ÁSZF</a>-et.</label>
+        <input type="checkbox" class="form-check-input" required>
+        <label class="form-check-label">Elfogadom az <a routerLink="/aszf">ÁSZF</a>-et.</label>
     </div>
-    <button class="btn btn-primary">Regisztráció</button>
+    <button class="btn btn-primary" (click)="register()">Regisztráció</button>
+    <button (click)="registerWithGoogle()">Bejelentkezés Google-lel</button>
 </div>
 
 </form>

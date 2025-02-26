@@ -1,29 +1,18 @@
 <form>
         <div class="form-group mb-3">
 
-            <input type="email" class="form-control" id="inputcucc" aria-describedby="email" placeholder="E-mail cím">
+            <input type="email" class="form-control" [ngModelOptions]="{standalone: true}" [(ngModel)]="email"  id="inputcucc1" aria-describedby="email" placeholder="E-mail cím">
         </div>
         <div class="form-group mb-3">
-    
-            <input type="password" class="form-control" id="inputcucc" placeholder="Jelszó">
+
+            <input type="password" [ngModelOptions]="{standalone: true}" [(ngModel)]="password"  class="form-control" id="inputcucc2" placeholder="Jelszó">
         </div>
-        <div class="form-group mb-3">
-    
-            <input type="text" class="form-control" id="inputcucc" placeholder="Vezetéknév">
-        </div>
-        <div class="form-group mb-3">
-    
-            <input type="text" class="form-control" id="inputcucc" placeholder="Keresztnév">
-        </div>
-        <div class="form-group mb-3">
-    
-            <input type="text" class="form-control" id="inputcucc" placeholder="Becenév">
-        </div> 
-        
+
     <p>Nincs még fiókod? <a routerLink="/register">Készíts egyet most!</a></p>
     <div class="form-group form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-        <label class="form-check-label" for="exampleCheck1">Elfogadom az <a routerLink="/aszf">ÁSZF</a>-et.</label>
+        <input type="checkbox" class="form-check-input" required>
+        <label class="form-check-label">Elfogadom az <a routerLink="/aszf">ÁSZF</a>-et.</label>
     </div>
-    <button class="btn btn-primary">Bejelentkezés</button>
+    <button class="btn btn-primary mt-2" (click)="login()">Bejelentkezés</button>
+    <button class="mt-2" (click)="loginWithGoogle()"><img src="gicon.webp" class="gicon"></button>
 </form>
