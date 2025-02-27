@@ -25,6 +25,9 @@ import { AszfComponent } from './aszf/aszf.component';
 import { environment } from '../environments/environments';
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFireAuthModule } from '@angular/fire/compat/auth';
+import { SpinComponent } from './spin/spin.component';
+
+
 
 @NgModule({
   declarations: [
@@ -44,7 +47,10 @@ import { AngularFireAuthModule } from '@angular/fire/compat/auth';
     KosarComponent,
     LoginComponent,
     RegisterComponent,
-    AszfComponent
+    AszfComponent,
+    SpinComponent,
+
+
   ],
   imports: [
     BrowserModule,

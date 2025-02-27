@@ -33,7 +33,7 @@
         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
           <button class="btn btn-primary me-md-2 bi bi-basket2-fill" type="button"></button>
         </div>
-        <form class="d-flex" role="search" *ngIf="router.url != '/login' && router.url != '/register'">
+        <form class="d-flex" role="search" *ngIf="router.url != '/login' && router.url != '/register' && router.url != '/home'">
           <input  [(ngModel)]="keresoSzo" (keyup)="onKeyUp($event)" class="form-control me-2" type="search" placeholder="Search" name="search">
           <button (click)="setKeresoSzo()" class="btn btn-outline-success" type="submit">Keresés</button>
         </form>

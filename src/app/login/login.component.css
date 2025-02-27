@@ -16,6 +16,10 @@ button{
     justify-self: center;
     display: block;
 }
+img{
+    justify-self: center;
+    display: block;
+}
 
 .gicon {
     width: 40px;
