@@ -11,6 +11,10 @@ import { SearchService } from '../search.service';
 export class TermekekComponent {
 
   cipok: any[] = [];
+  mezek: any[] = [];
+  labdak: any[] = [];
+  palank: any[] = [];
+  poszterek: any[] = [];
   keresoSzo:any = "";
   szurtMeret: string = "";
   szurtMarka: string = "";
@@ -21,20 +25,23 @@ export class TermekekComponent {
   szinek: string[] = [];
   rendezesTomb=["Alapértelmezett","Olcsók elől","Drágák elől"];
   rendezesAllapot=1;
+  termekek = this.cipok && this.labdak && this.mezek && this.palank && this.poszterek
 
   constructor(private base:BaseService, private search:SearchService) { 
-    this.getCipok();
+    // this.getCipok();
     this.search.getSearchWord().subscribe(
       (res)=>this.keresoSzo=res
-    );
+    )
+
+    this.getProducts()
   }
 
-  getCipok() {
-    this.base.getProducts().subscribe((data:any) => {
-      this.cipok = data.cipok
-      this.extractFilters()
-    });
-  }
+  // getCipok() {
+  //   this.base.getProducts().subscribe((data:any) => {
+  //     this.cipok = data.cipok
+  //     this.extractFilters()
+  //   });
+  // }
 
   extractFilters() {
     this.markak = [...new Set(this.cipok.map(cipo => cipo.marka))];
@@ -60,4 +67,10 @@ export class TermekekComponent {
     if (this.rendezesAllapot==0) this.rendezesAllapot=1
   }
 
+  getProducts(){
+    this.base.getProducts().subscribe((data:any) => {
+      this.termekek = data
+      console.log(data)
+    })
+  }
 }

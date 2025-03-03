@@ -1,4 +1,4 @@
-<!-- <button (click)="RendezesIranyValt()" type="button" class="btn btn-primary mb-4">{{rendezesTomb[rendezesAllapot]}}</button>
+<button (click)="RendezesIranyValt()" type="button" class="btn btn-primary mb-4">{{rendezesTomb[rendezesAllapot]}}</button>
 
 <div class="container">
   <div class="row">
@@ -29,30 +29,15 @@
 
 
     <div class="row">
-      <ng-container *ngIf="!szurtMeret && !szurtMarka && !szurtSzin">
-        <div class="col" *ngFor="let cipok of (cipok | search:keresoSzo | sort:rendezesAllapot)">
+      <!-- <ng-container *ngIf="!szurtMeret && !szurtMarka && !szurtSzin"> -->
+        <div class="col" *ngFor="let termekek termekek">
           <div class="card" style="width: 18rem;">
-            <img [src]="cipok.path" class="card-img-top" [alt]="cipok.alt">
+            <img [src]="termekek.path" class="card-img-top" [alt]="termekek.alt">
             <div class="card-body">
-              <h5 class="card-title">{{cipok.nev}}</h5>
-              <p class="card-text">Ár: {{cipok.ar}} Ft</p>
+              <h5 class="card-title">{{termekek.nev}}</h5>
+              <p class="card-text">Ár: {{termekek.ar}} Ft</p>
               <a routerLink="" class="btn btn-primary">Érdekel</a>
             </div>
           </div>
         </div>
-      </ng-container>
-    
-      <ng-container *ngIf="szurtMeret || szurtMarka || szurtSzin">
-        <div class="col" *ngFor="let cipok of szurtCipok()">
-          <div class="card" style="width: 18rem;">
-            <img [src]="cipok.path" class="card-img-top" [alt]="cipok.alt">
-            <div class="card-body">
-              <h5 class="card-title">{{cipok.nev}}</h5>
-              <p class="card-text">Ár: {{cipok.ar}} Ft</p>
-              <a routerLink="" class="btn btn-primary">Érdekel</a>
-            </div>
-          </div>
-        </div>
-      </ng-container>
-    </div> -->
-<p>works</p>
+      <!-- </ng-container> -->
