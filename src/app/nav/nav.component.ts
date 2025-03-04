@@ -14,6 +14,7 @@ export class NavComponent {
   komponensek: any[] = []
   link: any[] = []
   keresoSzo=""
+  isBlack:boolean = false
 
   constructor(private base:BaseService, private search:SearchService, public router:Router) { 
     this.getKomponens()
@@ -41,6 +42,10 @@ export class NavComponent {
       this.komponensek = data.komponensek)
   }
 
-
+  switch(){
+    var element = document.body
+    element.classList.toggle("dark-mode")
+    this.isBlack = true
+  }
 
 }

@@ -39,12 +39,36 @@
         </form>
       </div>
     </div>
-    <button id="theme-switch">
-      <span class="material-symbols-outlined">
-          light_mode
-          </span>
-      <span class="material-symbols-outlined">
-          dark_mode
-          </span>
+
+  <!-- <div *ngIf="!isBlack" [ngStyle]="{'background-color': isBlack ? 'black' : 'white', 'color': isBlack ? 'white' : 'black'}">
+    <button class="m-1" id="theme-switch" >
+      <i class="bi bi-moon-fill"></i>
   </button>
+  </div> -->
+
+  <div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item dropdown" ngbDropdown>
+          <a class="nav-link dropdown-toggle" id="navbarDropdown" ngbDropdownToggle role="button">
+            <i class="bi bi-sun-fill" *ngIf="isBlack"></i>
+            <i class="bi bi-moon-fill" *ngIf="!isBlack"></i>
+          </a>
+          <ul class="dropdown-menu" ngbDropdownMenu>
+            <li >
+              <a class="dropdown-item" *ngIf="isBlack" (click)="switch()">
+                <i class="bi bi-sun-fill"></i>
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item" *ngIf="!isBlack" (click)="switch()">
+                <i class="bi bi-moon-fill"></i>
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+
   </nav>

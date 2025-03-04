@@ -19,3 +19,16 @@
     transition: background-color 0.3s, color 0.3s;
   }
   
+  /* Light mode alapértelmezett */
+#theme-switch {
+  background: white url('/kepek/mode-switch/lightmode.svg') no-repeat center center;
+  color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+  /* Dark mode */
+  #theme-switch {
+    background: black url('/kepek/mode-switch/darkmode.svg') no-repeat center center;
+    color: white;
+  }
+}
