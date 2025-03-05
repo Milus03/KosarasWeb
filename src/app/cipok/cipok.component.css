@@ -1,6 +1,13 @@
 /* Minden képre alkalmazott stílus */
 img {
-    width: auto;    /* Szélesség */
-    height: auto;   /* Magasság */
+    width: 280px;    /* Szélesség */
+    max-width: 280px;
+    height: auto;
+    max-height: 300px;   /* Magasság */
     object-fit: cover; /* A kép kitölti a dobozt anélkül, hogy torzulna */
+}
+
+.card{
+    align-items: center;
+    background-color: none;
 }
