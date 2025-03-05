@@ -1,10 +1,9 @@
-/* Minden képre alkalmazott stílus */
 img {
-    width: 280px;    /* Szélesség */
+    width: 280px;  
     max-width: 280px;
     height: auto;
-    max-height: 300px;   /* Magasság */
-    object-fit: cover; /* A kép kitölti a dobozt anélkül, hogy torzulna */
+    max-height: 300px; 
+    object-fit: cover; 
 }
 
 .card{
