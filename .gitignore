@@ -43,4 +43,4 @@ Thumbs.db
 
 debug.log
 
-environments/*
+src/environments/*
