@@ -84,20 +84,20 @@
     ],
     "poszterek": [
       {"id": 1, "nev": "Michael Jordan", "ar": 12990, "meret": "60x90 cm", "path":"kepek/poszterek/Michael Jordan Air Poster.png", "alt":"Michael Jordan Air Poster"},
-      {"id": 2, "nev": "LeBron James", "ar": 11990, "meret": "50x70 cm", "path":"kepek/poszterek/LeBron James Dunk Poster.webp", "alt":"LeBron James Dunk Poster"},
+      {"id": 2, "nev": "LeBron James", "ar": 11990, "meret": "50x70 cm", "path":"kepek/poszterek/Lebron James Poster.png", "alt":"LeBron James"},
       {"id": 3, "nev": "Kobe Bryant", "ar": 13990, "meret": "60x90 cm", "path":"kepek/poszterek/Kobe Bryant Mamba Poster.png", "alt":"Kobe Bryant Mamba Poster"},
       {"id": 4, "nev": "Stephen Curry", "ar": 10990, "meret": "50x70 cm", "path":"kepek/poszterek/Stephen Curry Poster.png", "alt":"Stephen Curry Poster"},
       {"id": 5, "nev": "Giannis Antetokounmpo", "ar": 11990, "meret": "60x90 cm", "path":"kepek/poszterek/Giannis Antetokounmpo Poster.png", "alt":"Giannis Antetokounmpo"},
       {"id": 6, "nev": "Lamelo Ball", "ar": 10990, "meret": "60x90 cm", "path":"kepek/poszterek/Lamelo Ball Poster.png", "alt":"Lamelo Ball"},
       {"id": 7, "nev": "Anthony Edwards", "ar": 11990, "meret": "60x90 cm", "path":"kepek/poszterek/Anthony Edwards Poster.png", "alt":"Anthony Edwards"},
       {"id": 8, "nev": "Ja Morant", "ar": 9990, "meret": "60x90 cm", "path":"kepek/poszterek/Ja Morant Poster.png", "alt":"Ja Morant"},
-      {"id": 9, "nev": "Kevin Durant", "ar": 12990, "meret": "60x90 cm", "path":"kepek/poszterek/Kevin Durant Poster.png", "alt":"Kevin Durant Poster"},
-      {"id": 10, "nev": "Tim Duncan", "ar": 11990, "meret": "50x70 cm", "path":"kepek/poszterek/Tim Duncan Poster.png", "alt":"Tim Duncan Poster"},
-      {"id": 11, "nev": "Shaquille O'Neal", "ar": 13990, "meret": "60x90 cm", "path":"kepek/poszterek/Shaquille O'Neal Poster.png", "alt":"Shaquille O'Neal Poster"},
-      {"id": 12, "nev": "Kawhi Leonard", "ar": 10990, "meret": "50x70 cm", "path":"kepek/poszterek/Kawhi Leonard Poster.png", "alt":"Kawhi Leonard Poster"},
-      {"id": 13, "nev": "Paul George", "ar": 11990, "meret": "60x90 cm", "path":"kepek/poszterek/Paul George Poster.png", "alt":"Paul George"},
-      {"id": 14, "nev": "Jimmy Butler", "ar": 10990, "meret": "60x90 cm", "path":"kepek/poszterek/Jimmy Butler Poster.png", "alt":"Jimmy Butler"},
-      {"id": 15, "nev": "James Harden", "ar": 11990, "meret": "60x90 cm", "path":"kepek/poszterek/James Harden Poster.png", "alt":"James Harden"},
+      {"id": 9, "nev": "Kevin Durant", "ar": 12990, "meret": "60x90 cm", "path":"kepek/poszterek/Kevin Durant Poster.png", "alt":"Kevin Durant"},
+      {"id": 10, "nev": "Victor Wembanyama", "ar": 11990, "meret": "50x70 cm", "path":"kepek/poszterek/Victor Wembanyama Poster.png", "alt":"Victor Wembanyama"},
+      {"id": 11, "nev": "Jimmy Butler", "ar": 13990, "meret": "60x90 cm", "path":"kepek/poszterek/Jimmy Butler Poster.png", "alt":"Shaquille O'Neal "},
+      {"id": 12, "nev": "Devin Booker", "ar": 10990, "meret": "50x70 cm", "path":"kepek/poszterek/Devin Booker Poster.png", "alt":"Devin Booker"},
+      {"id": 13, "nev": "Jayson Tatum", "ar": 11990, "meret": "60x90 cm", "path":"kepek/poszterek/Jayson Tatum Poster.png", "alt":"Jayson Tatum"},
+      {"id": 14, "nev": "Kyrie Irving", "ar": 10990, "meret": "60x90 cm", "path":"kepek/poszterek/Kyrie Irving Poster.png", "alt":"Kyrie Irving"},
+      {"id": 15, "nev": "Shai Alexander", "ar": 11990, "meret": "60x90 cm", "path":"kepek/poszterek/Shai Alexander Poster.png", "alt":"Shai Alexander"},
       {"id": 16, "nev": "Luka Doncic", "ar": 9990, "meret": "60x90 cm", "path":"kepek/poszterek/Luka Doncic Poster.png", "alt":"Luka Doncic"}
 
     ]
