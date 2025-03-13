@@ -66,17 +66,23 @@ export class LoginComponent {
     this.authService.login(this.email, this.password)
       .then(res => {
         console.log("Sikeres bejelentkezés!", res);
-        this.router.navigate(['/map']);
+        this.router.navigate(['/home']);
       })
       .catch(err => console.error("Hiba történt!", err.message));
   }
 
   loginWithGoogle() {
     this.authService.loginWithGoogle()
-      .then(res => {
+      .then((res: any) => {
         console.log("Sikeres Google bejelentkezés!", res);
-        this.router.navigate(['/map']);
+        this.router.navigate(['/home']);
       })
-      .catch(err => console.error("Hiba történt!", err.message));
+      .catch((err: any) => {
+        console.error("Hiba történt!", err?.message || "Ismeretlen hiba történt.");
+      });
   }
+  registerbtn(){
+    this.router.navigate(["/register"])
+  }
+  
 }

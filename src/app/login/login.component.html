@@ -35,7 +35,7 @@
 		<form action="#">
 			<h1>Fiók létrehozása</h1>
 			<div class="social-container">
-				<a href="#" class="social"><i class="bi bi-google"></i></a>
+				<a class="social"><i class="bi bi-google"></i></a>
 			</div>
 			<span>vagy használd az email-ed a regisztrációhoz</span>
 			<input type="text" placeholder="Name" />
@@ -52,9 +52,10 @@
 			</div>
 			<span>or use your account</span>
 			<input type="email" placeholder="Email" />
-			<input type="password" placeholder="Password" />
-			<a href="#">Forgot your password?</a>
-			<button>Sign In</button>
+			<input type="password" placeholder="Jelszó" />
+			<a href="#">Elfelejtetted a jelszavad?</a>
+			<button>Bejelentkezés</button>
+			<button (click)="loginWithGoogle()">Bejelentkezés Googléval</button>
 		</form>
 	</div>
 	<div class="overlay-container">
@@ -62,12 +63,12 @@
 			<div class="overlay-panel overlay-left">
 				<h1>Welcome Back!</h1>
 				<p>To keep connected with us please login with your personal info</p>
-				<button class="ghost" id="signIn">Sign In</button>
+				<button class="ghost" id="signIn">Bejelentkezés</button>
 			</div>
 			<div class="overlay-panel overlay-right">
-				<h1>Hello, Friend!</h1>
-				<p>Enter your personal details and start journey with us</p>
-				<button class="ghost" id="signUp">Sign Up</button>
+				<h1>Üdvözlünk!</h1>
+				<p>Add meg a személyes adataidat!</p>
+				<button (click)="registerbtn()" class="ghost" id="signUp">Regisztrálj most!</button>
 			</div>
 		</div>
 	</div>

@@ -25,7 +25,6 @@ export class RegisterComponent {
 
   registerWithGoogle() {
     this.auth.loginWithGoogle()
-      .then(res => console.log("Sikeres Google bejelentkezés!", res))
-      .catch(err => console.error("Hiba történt!", err.message));
+
   }
 }
